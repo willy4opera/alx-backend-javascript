@@ -4,7 +4,7 @@ export default function guardrail(mathFunction) {
   try { // try pushing to the queue
     queue.push(mathFunction());
   } catch (err) {
-    queue.push(String(err)); // Get error message if failed 
+    queue.push(String(err));
   } finally {
     queue.push('Guardrail was processed');
   }
