@@ -3,7 +3,7 @@ const fs = require("fs");
 /**
  * Counts the number of students in a CSV data file.
  * @param {String} dataPath The path to the CSV data file.
- * @author Odionye WIlliams <https://github.com/willy4opera>
+ * @author Odionye WIlliams<https://github.com/willy4opera>
  */
 const countStudents = (dataPath) =>
   new Promise((resolve, reject) => {
